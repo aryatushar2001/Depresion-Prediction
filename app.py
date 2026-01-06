@@ -21,7 +21,7 @@ st.write('Fill the details below for diagnosis')
 col1, col2 = st.columns(2)
 
 with col1:
-  age = st.number_input('Age', 18,70,24)
+  age = st.number_input('Age', 15,100,24)
   gender = st.selectbox('Gender', ('Male','Female'))
   sq_index = st.number_input('Sleep Quality Index', 1.0,10.0,5.0)
   bf_level = st.number_input('Brain Fog Level', 1.0,10.0,5.0)
